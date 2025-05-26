@@ -7,7 +7,6 @@ type Props = Omit<ImageProps, "src"> & {
   srcDark: string;
 };
 const prisma = new PrismaClient()
-prisma.user
 const ThemeImage = (props: Props) => {
   const { srcLight, srcDark, ...rest } = props;
 
